@@ -1,0 +1,71 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #004BA0, #0078D7); /* Mumbai Indians Blue */
+    color: #FFD700; /* Gold */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header section */
+header {
+    padding: 20px;
+    background-color: #002F6C; /* Dark Blue */
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #FFD700; /* Gold */
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 5px 0;
+    color: #FFFFFF; /* White for contrast */
+}
+
+/* Section styling */
+section {
+    margin: 20px auto;
+    width: 80%;
+    background-color: #003C8F; /* Slightly lighter blue */
+    padding: 15px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+
+/* Experience list */
+ul {
+    text-align: left;
+    margin: 0 auto;
+    width: 70%;
+    color: #FFFFFF;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Tool icons styling */
+.tool-icons {
+    margin-top: 15px;
+}
+
+.tool-icons span {
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 12px;
+    background-color: #FFD700; /* Gold buttons */
+    color: #002F6C; /* Dark Blue text */
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
