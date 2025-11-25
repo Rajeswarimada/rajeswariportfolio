@@ -1,0 +1,16 @@
+# Use an official lightweight web server image
+FROM nginx:alpine
+
+# Set maintainer info
+LABEL maintainer="Rajeswari Mada <rajeswari@example.com>"
+
+# Create portfolio HTML
+RUN mkdir -p /usr/share/nginx/html
+
+# Add custom portfolio page
+COPY index.html /usr/share/nginx/html/index.html
+
+# Expose port 80
+EXPOSE 80
+
+# Start Nginx
